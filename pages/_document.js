@@ -14,6 +14,7 @@ export default class MyDocument extends Document {
        <Head>
          <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,500" rel="stylesheet" />
          <link href="/static/common.css" rel="stylesheet" />
+         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.5.2/animate.min.css" />
        </Head>
        <body className="custom_class">
          {/* {this.props.customValue} */}

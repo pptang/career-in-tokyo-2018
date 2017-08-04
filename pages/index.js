@@ -9,7 +9,7 @@ const Index = (props) => (
     <ul>
       {
         props.shows.map(({show}) => (
-          <li key={show.id}>
+          <li key={show.id} className="animated bounceIn">
             <span>{show.name}</span>
           </li>
         ))
